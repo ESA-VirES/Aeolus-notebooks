@@ -13,14 +13,14 @@ jobs:
       - name: Pull docker image
         run: |
           echo ${{ secrets.EOX_REGISTRY_PASSWORD }} | docker login -u ${{ secrets.EOX_REGISTRY_USER }} --password-stdin registry.gitlab.eox.at
-          docker pull registry.gitlab.eox.at/esa/vires_vre_ops/vre-base-notebook:0.1.0
+          docker pull registry.gitlab.eox.at/esa/vires_vre_ops/vre-base-notebook:0.4.0
       - uses: actions/checkout@v2
       - name: Execute notebooks and build book
         run: |
           docker run -v $GITHUB_WORKSPACE:/home/jovyan -u root \
             -e VIRES_TOKEN=${{ secrets.VIRES_TOKEN }} \
             -e VIRES_TOKEN_STAGING=${{ secrets.VIRES_TOKEN_STAGING }} \
-            registry.gitlab.eox.at/esa/vires_vre_ops/vre-base-notebook:0.1.0 \
+            registry.gitlab.eox.at/esa/vires_vre_ops/vre-base-notebook:0.4.0 \
             bash -c \
               '
               pip install --upgrade 'git+https://github.com/ESA-VirES/VirES-Python-Client@aeolus#egg=viresclient' && \
