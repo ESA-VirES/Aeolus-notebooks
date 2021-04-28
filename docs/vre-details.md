@@ -27,27 +27,11 @@ Open a Terminal (`File/New/Terminal`) and enter: `conda list`
 [eoxmagmod](https://github.com/ESA-VirES/MagneticModel/)
 : Optimised forward evaluation of Swarm geomagnetic models
 
-### Swarm community software
+### Aeolus community software
 
-[chaosmagpy](https://github.com/ancklo/ChaosMagPy)
-: CHAOS model forward code and geomag modelling utilities
 
-[pyamps](https://github.com/klaundal/pyAMPS)
-: AMPS model forward code
 
-[swarmpyfac](https://github.com/Swarm-DISC/SwarmPyFAC)
-: Implementation of single-spacecraft FAC algorithm
-
-[ibp](https://gitext.gfz-potsdam.de/rother/ibp-model)
-: Ionospheric bubble probability forward code
-
-### Wider geomagnetism and space physics community software
-
-[magpysv](https://github.com/gracecox/MagPySV)
-: Generating secular variation time series from ground observatory data
-
-[apexpy](https://github.com/aburrell/apexpy)
-: Apex and quasi-dipole coordinate transformations
+### Wider space physics community software
 
 [spacepy](https://github.com/spacepy/spacepy)
 : Tools for space physics
@@ -68,14 +52,6 @@ Open a Terminal (`File/New/Terminal`) and enter: `conda list`
 
 [holoviz ecosystem](https://holoviz.org)
 : High level tools to simplify making complex visualisations
-
-:::{note}
-We are seeking to evolve this list, which involves a wider effort to increase portability of software. Generally speaking, to add a package here, we require it to be available through `pip` or `conda` and that the software be designed for portability (no large data packages included, and manageable dependencies) and that it is actively maintained. See below to try adding a package yourself to test it.
-:::{admonition} Software lists and communities
-:class: seealso
-- [Python in Heliophysics Community (PyHC)](https://heliopython.org/projects/)
-- [Software Underground](https://softwareunderground.org/stack)
-:::
 
 ## Installing other packages
 
