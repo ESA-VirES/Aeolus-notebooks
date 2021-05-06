@@ -25,8 +25,8 @@ jobs:
               '
               pip install --upgrade 'git+https://github.com/ESA-VirES/VirES-Python-Client@aeolus#egg=viresclient' && \
               viresclient set_token https://aeolus.services/ows $VIRES_TOKEN && \
-              viresclient set_token https://staging.aeolus.services/ows $VIRES_TOKEN_STAGING && \
-              viresclient set_default_server https://staging.aeolus.services/ows && \
+              viresclient set_token https://testing.aeolus.services/ows $VIRES_TOKEN_STAGING && \
+              viresclient set_default_server https://testing.aeolus.services/ows && \
               pip install jupyter-book nbmake pytest-xdist && \
               pytest --numprocesses 2 --nbmake --overwrite \
                 notebooks/*.ipynb && \
