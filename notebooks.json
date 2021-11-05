@@ -43,6 +43,12 @@
             "group": "Aeolus Product Demos",
             "rank": 1
         },{
+            "path": "04a_Orbit_prediction.ipynb",
+            "name": "Orbit prediction",
+            "class": "viresdemo",
+            "group": "Aeolus Product Demos",
+            "rank": 1
+        },{
             "path": "notebooks/04a1_Demo-AUX_MRC_1B.ipynb",
             "name": "AUX_MRC_1B",
             "class": "viresdemo",

@@ -20,6 +20,8 @@ jobs:
           docker run -v $GITHUB_WORKSPACE:/home/jovyan -u root \
             -e VIRES_TOKEN=${{ secrets.VIRES_TOKEN }} \
             -e VIRES_TOKEN_STAGING=${{ secrets.VIRES_TOKEN_STAGING }} \
+            -e DATAU=${{ secrets.DATAU }} \
+            -e DATAP=${{ secrets.DATAP }} \
             registry.gitlab.eox.at/esa/vires_vre_ops/vre-aeolus-notebook:0.1.2b \
             bash -c \
               '
