@@ -20,19 +20,19 @@
             "rank": 1
         },{
             "path": "notebooks/03a1_Demo-ALD_U_N_1B.ipynb",
-            "name": "ALD_U_N_1B",
+            "name": "Aeolus Level 1B product",
             "class": "viresdemo",
             "group": "Aeolus Product Demos",
             "rank": 1
         },{
             "path": "notebooks/03b1_Demo-ALD_U_N_2A.ipynb",
-            "name": "ALD_U_N_2A",
+            "name": "Aeolus Level 2A product",
             "class": "viresdemo",
             "group": "Aeolus Product Demos",
             "rank": 1
         },{
             "path": "notebooks/03c1_Demo-ALD_U_N_2B.ipynb",
-            "name": "ALD_U_N_2B",
+            "name": "Aeolus Level 2B product",
             "class": "viresdemo",
             "group": "Aeolus Product Demos",
             "rank": 1
@@ -44,27 +44,27 @@
             "rank": 1
         },{
             "path": "04a_Orbit_prediction.ipynb",
-            "name": "Orbit prediction",
+            "name": "Orbit prediction for Aeolus",
             "class": "viresdemo",
-            "group": "Aeolus Product Demos",
+            "group": "Further Analysis Demos",
             "rank": 1
         },{
             "path": "notebooks/04a1_Demo-AUX_MRC_1B.ipynb",
             "name": "AUX_MRC_1B",
             "class": "viresdemo",
-            "group": "Aeolus Product Demos",
+            "group": "Auxiliary Product Demos",
             "rank": 1
         },{
             "path": "notebooks/04b1_Demo-AUX_RRC_1B.ipynb",
             "name": "AUX_RRC_1B",
             "class": "viresdemo",
-            "group": "Aeolus Product Demos",
+            "group": "Auxiliary Product Demos",
             "rank": 1
         },{
             "path": "notebooks/04c1_Demo-AUX_ISR_1B.ipynb",
             "name": "AUX_ISR_1B",
             "class": "viresdemo",
-            "group": "Aeolus Product Demos",
+            "group": "Auxiliary Product Demos",
             "rank": 1
         }
     ]
