@@ -13,10 +13,15 @@
   - file: notebooks/02a__Intro-Aeolus-viresclient
 - part: "Aeolus Product Demos"
   chapters:
-  - file: notebooks/03a1_Demo-ALD_U_N_1B
+  - file: notebooks/03a1_Demo-ALD_U_N_1B.ipynb
   - file: notebooks/03b1_Demo-ALD_U_N_2A.ipynb
   - file: notebooks/03c1_Demo-ALD_U_N_2B.ipynb
   - file: notebooks/03d1_Demo-ALD_U_N_2C.ipynb
+- part: "Further Analysis Demos"
+  chapters:
+  - file: notebooks/04a_Orbit_prediction.ipynb
+- part: "Auxiliary Product Demos"
+  chapters:
   - file: notebooks/04a1_Demo-AUX_MRC_1B.ipynb
   - file: notebooks/04b1_Demo-AUX_RRC_1B.ipynb
   - file: notebooks/04c1_Demo-AUX_ISR_1B.ipynb
