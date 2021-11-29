@@ -1,13 +1,13 @@
 on:
   push:
     branches:
-      - main
+      - staging
   pull_request:
     branches:
-      - main
+      - staging
 jobs:
   run:
-    name: Build Jupyter Book
+    name: Build Jupyter Book (STAGING)
     runs-on: ubuntu-latest
     steps:
       - name: Pull docker image
@@ -32,7 +32,7 @@ jobs:
               pip install jupyter-book nbmake pytest-xdist && \
               pytest --numprocesses 2 --nbmake --overwrite \
                 notebooks/*.ipynb && \
-              jupyter-book build --config _config.yml .
+              jupyter-book build --config _config-testing.yml .
               '
       - name: Deploy preview with netlify
         run: netlify deploy --dir=_build/html --auth=${{ secrets.NETLIFY_AUTH_TOKEN }} --site=${{ secrets.NETLIFY_SITE_API_ID }}
