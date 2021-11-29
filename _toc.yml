@@ -1,29 +1,29 @@
-- file: docs/welcome
-- part: "Virtual Research Environment"
+format: jb-book
+root: docs/welcome
+parts:
+- caption: Virtual Research Environment
   chapters:
   - file: docs/vre-overview
   - file: docs/vre-details
   - file: docs/notebook-development
-- part: "Intro - Jupyter & Python"
+- caption: Intro - Jupyter & Python
   chapters:
   - file: notebooks/01a__Intro-Jupyter-Python
   - file: notebooks/01b1_Pandas-and-Plots
-- part: "Intro - VirES for Aeolus"
+- caption: Intro - VirES for Aeolus
   chapters:
   - file: notebooks/02a__Intro-Aeolus-viresclient
-- part: "Aeolus Product Demos"
+- caption: Aeolus Product Demos
   chapters:
-  - file: notebooks/03a1_Demo-ALD_U_N_1B.ipynb
-  - file: notebooks/03b1_Demo-ALD_U_N_2A.ipynb
-  - file: notebooks/03c1_Demo-ALD_U_N_2B.ipynb
-  - file: notebooks/03d1_Demo-ALD_U_N_2C.ipynb
-- part: "Further Analysis Demos"
+  - file: notebooks/03a1_Demo-ALD_U_N_1B
+  - file: notebooks/03b1_Demo-ALD_U_N_2A
+  - file: notebooks/03c1_Demo-ALD_U_N_2B
+  - file: notebooks/03d1_Demo-ALD_U_N_2C
+- caption: Further Analysis Demos
   chapters:
-  - file: notebooks/04a_Orbit_prediction.ipynb
-- part: "Auxiliary Product Demos"
+  - file: notebooks/04a_Orbit_prediction
+- caption: Auxiliary Product Demos
   chapters:
-  - file: notebooks/04a1_Demo-AUX_MRC_1B.ipynb
-  - file: notebooks/04b1_Demo-AUX_RRC_1B.ipynb
-  - file: notebooks/04c1_Demo-AUX_ISR_1B.ipynb
-
-
+  - file: notebooks/04a1_Demo-AUX_MRC_1B
+  - file: notebooks/04b1_Demo-AUX_RRC_1B
+  - file: notebooks/04c1_Demo-AUX_ISR_1B
