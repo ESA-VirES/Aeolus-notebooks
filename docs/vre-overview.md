@@ -1,9 +1,9 @@
 # ℹ️ Introduction to the VRE
 
-The VRE is a cloud service based on *Jupyter* technology to lower the barrier to entry for researchers to use *Swarm* products. We provide the hardware and the software stack so that you can start programming immediately without configuring anything on your computer. Data and software are stored and executed in the cloud.
+The VRE is a cloud service based on *Jupyter* technology to lower the barrier to entry for researchers to use *Aeolus* products. We provide the hardware and the software stack so that you can start programming immediately without configuring anything on your computer. Data and software are stored and executed in the cloud.
 
 
-The VRE is an extension of VirES [(**Vir**tual environments for **E**arth observation **S**cientists)](https://vires.services) - a server system and a graphical web interface to allow easy visualisation and manipulation of Swarm products (both data and geomagnetic models). With the VRE you are now able to bring the Jupyter & Python ecosystem to data retrieved via VirES. Both services are provided by ESA through [EOX IT Services](https://eox.at/).
+The VRE is an extension of VirES [(**Vir**tual environments for **E**arth observation **S**cientists)](https://aeolus.services) - a server system and a graphical web interface to allow easy visualisation and manipulation of Aeolus products. With the VRE you are now able to bring the Jupyter & Python ecosystem to data retrieved via VirES. Both services are provided by ESA through [EOX IT Services](https://eox.at/).
 
 The goal of this project is to reduce the hurdles that researchers face in data and software management, and to empower them to build more interoperable and reproducible research code. While you can run code on the VRE without any initial setup, we also fully support accessing data from VirES on any machine through the [viresclient](https://viresclient.readthedocs.io) Python package.
 

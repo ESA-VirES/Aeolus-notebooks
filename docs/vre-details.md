@@ -24,12 +24,10 @@ Open a Terminal (`File/New/Terminal`) and enter: `conda list`
 [viresclient](https://github.com/ESA-VirES/VirES-Python-Client/)
 : Access to VirES server (download of Swarm products as pandas/xarray)
 
-[eoxmagmod](https://github.com/ESA-VirES/MagneticModel/)
-: Optimised forward evaluation of Swarm geomagnetic models
-
 ### Aeolus community software
 
-
+[coda](http://stcorp.github.io/coda/doc/html/index.html)
+: Tools to open original Earth Explorer data format
 
 ### Wider space physics community software
 
@@ -93,4 +91,4 @@ Aside from using a consistent software environment, input data must be identical
 
 ## Portability of the environment
 
-We would like to make it easier for you to run a compatible software stack on any machine (your laptop, workstation, or HPC etc.). While you can install `viresclient` within any Python environment and start accessing Swarm data, the exact combination of software and their versions means that a collaborator's analysis code may not work the same within your environment. If both of you can share the same software stack, where one of you may work on the VRE for ease of use and the other may use an HPC system to run expensive computations, then it will make it easier to share analysis code. We are looking into solutions for how to do this reliably, given the differing requirements of institutional systems.
+We would like to make it easier for you to run a compatible software stack on any machine (your laptop, workstation, or HPC etc.). While you can install `viresclient` within any Python environment and start accessing Aeolus data, the exact combination of software and their versions means that a collaborator's analysis code may not work the same within your environment. If both of you can share the same software stack, where one of you may work on the VRE for ease of use and the other may use an HPC system to run expensive computations, then it will make it easier to share analysis code. We are looking into solutions for how to do this reliably, given the differing requirements of institutional systems.
