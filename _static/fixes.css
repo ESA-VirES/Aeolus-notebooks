@@ -1,0 +1,5 @@
+/* hiding longer cell breaks scrollbar logic of book, hiding overflow
+   ensures hidden cell does not make this break*/
+.tag_hide-cell {
+    overflow: hidden;
+}
