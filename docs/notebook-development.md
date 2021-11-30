@@ -147,11 +147,7 @@ analysis](https://the-turing-way.netlify.app/reproducible-research/overview/over
 to share (e.g. supplementary material to a publication), this is perfect
 for it\'s own dedicated repository. When there is more than one
 contributor (or you want to signal that contributions are welcome), use
-a repository under a GitHub organisation (e.g.
-[Swarm-DISC](https://github.com/Swarm-DISC/),
-[MagneticEarth](https://github.com/MagneticEarth/), or your
-research group) - add to an existing repository if your notebooks fit
-the scope.
+a repository under a GitHub organisation.
 
 If the resource is intended to be public eventually, it is easier to
 make it public from the beginning (i.e. hosting it in an open repository
@@ -170,7 +166,7 @@ can](https://the-turing-way.netlify.app/reproducible-research/open).
 
 1.  [Create a new repo on GitHub](https://github.com/new)
 
-    -   Choose a name that identifies the scope, e.g. Swarm_notebooks,
+    -   Choose a name that identifies the scope, e.g. Aeolus_notebooks,
         IAGA_SummerSchool2019, viresclient_examples
     -   Choose a license (this is important to allow others to legally reuse your code - if you don't know and just want to make it free to use, pick the MIT license)
     -   Add a README - written in [markdown
@@ -258,4 +254,4 @@ reStructuredText:
 
 ### nbgitpuller
 
-nbgitpuller is a tool which enables the creation of magic links that tell Jupyter to automatically pull in an external git repository. The extension is installed on the VRE so that you can use the [nbgitpuller link generator](https://jupyterhub.github.io/nbgitpuller/link?hub=https://vre.vires.services/&repo=https://github.com/Swarm-DISC/Swarm_notebooks) to provide an easy way for others to access your notebooks (beware that there is [automatic merging behaviour](https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html) that you may not want).
+nbgitpuller is a tool which enables the creation of magic links that tell Jupyter to automatically pull in an external git repository. The extension is installed on the VRE so that you can use the [nbgitpuller link generator](https://jupyterhub.github.io/nbgitpuller/link?hub=https://vre.aeolus.services/&repo=https://github.com/ESA-VirES/Aeolus-notebooks) to provide an easy way for others to access your notebooks (beware that there is [automatic merging behaviour](https://jupyterhub.github.io/nbgitpuller/topic/automatic-merging.html) that you may not want).

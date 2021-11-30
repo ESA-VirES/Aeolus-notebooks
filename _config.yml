@@ -17,7 +17,7 @@ launch_buttons:
 
 repository:
   url: https://github.com/ESA-VirES/Aeolus-notebooks/
-  branch: master
+  branch: main
 
 html:
   use_issues_button         : true
