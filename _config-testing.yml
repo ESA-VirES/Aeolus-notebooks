@@ -15,7 +15,7 @@ launch_buttons:
   binderhub_url             : ""
 
 repository:
-  url: https://github.com/ESA-VirES/Aeolus-notebooks/
+  url: https://github.com/ESA-VirES/Aeolus-notebooks
   branch: staging
 
 html:
