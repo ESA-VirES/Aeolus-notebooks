@@ -24,6 +24,7 @@ parts:
   - file: notebooks/04a_Orbit_prediction
 - caption: Auxiliary Product Demos
   chapters:
+  - file: notebooks/04a1_Demo-AUX_MET
   - file: notebooks/04a1_Demo-AUX_MRC_1B
   - file: notebooks/04b1_Demo-AUX_RRC_1B
   - file: notebooks/04c1_Demo-AUX_ISR_1B

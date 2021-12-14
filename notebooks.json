@@ -49,6 +49,12 @@
             "group": "Further Analysis Demos",
             "rank": 1
         },{
+            "path": "notebooks/04d1_Demo_AUX_MET.ipynb",
+            "name": "Aeolus Auxiliary Meteorological Data",
+            "class": "viresdemo",
+            "group": "Auxiliary Product Demos",
+            "rank": 1
+        },{
             "path": "notebooks/04a1_Demo-AUX_MRC_1B.ipynb",
             "name": "AUX_MRC_1B",
             "class": "viresdemo",
