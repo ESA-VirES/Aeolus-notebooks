@@ -43,12 +43,6 @@
             "group": "Aeolus Product Demos",
             "rank": 1
         },{
-            "path": "04a_Orbit_prediction.ipynb",
-            "name": "Orbit prediction for Aeolus",
-            "class": "viresdemo",
-            "group": "Further Analysis Demos",
-            "rank": 1
-        },{
             "path": "notebooks/04d1_Demo_AUX_MET.ipynb",
             "name": "Auxiliary Meteorological Data",
             "class": "viresdemo",
@@ -71,6 +65,18 @@
             "name": "AUX_ISR_1B",
             "class": "viresdemo",
             "group": "Auxiliary Product Demos",
+            "rank": 1
+        },{
+            "path": "notebooks/05a1_Orbit_prediction.ipynb",
+            "name": "Orbit prediction for Aeolus",
+            "class": "viresdemo",
+            "group": "Further Analysis Demos",
+            "rank": 1
+        },{
+            "path": "notebooks/05b1_Vertical_resampling_and_interpolation.ipynb",
+            "name": "L2B vertical resampling/interpolation",
+            "class": "viresdemo",
+            "group": "Further Analysis Demos",
             "rank": 1
         }
     ]
