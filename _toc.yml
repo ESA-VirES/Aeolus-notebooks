@@ -19,12 +19,13 @@ parts:
   - file: notebooks/03b1_Demo-ALD_U_N_2A
   - file: notebooks/03c1_Demo-ALD_U_N_2B
   - file: notebooks/03d1_Demo-ALD_U_N_2C
-- caption: Further Analysis Demos
-  chapters:
-  - file: notebooks/04a_Orbit_prediction
 - caption: Auxiliary Product Demos
   chapters:
   - file: notebooks/04d1_Demo_AUX_MET
   - file: notebooks/04a1_Demo-AUX_MRC_1B
   - file: notebooks/04b1_Demo-AUX_RRC_1B
   - file: notebooks/04c1_Demo-AUX_ISR_1B
+- caption: Further Analysis Demos
+  chapters:
+  - file: notebooks/05a1_Orbit_prediction
+  - file: notebooks/05b1_Vertical_resampling_and_interpolation
