@@ -3,3 +3,9 @@
 .tag_hide-cell {
     overflow: hidden;
 }
+
+/* html table outputs have really large font size compared to output in html
+jupyter notebook so we use this to decrease the size a little bit */
+.output.text_html {
+    font-size: 0.8rem;
+}
