@@ -90,6 +90,12 @@
             "class": "viresdemo",
             "group": "Further Analysis Demos",
             "rank": 1
+        },{
+            "path": "notebooks/05c1_Temporal_error_evolution.ipynb",
+            "name": "Temporal error evolution",
+            "class": "viresdemo",
+            "group": "Further Analysis Demos",
+            "rank": 1
         }
     ]
 }

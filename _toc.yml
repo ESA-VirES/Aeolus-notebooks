@@ -31,3 +31,4 @@ parts:
   chapters:
   - file: notebooks/05a1_Orbit_prediction
   - file: notebooks/05b1_Vertical_resampling_and_interpolation
+  - file: notebooks/05c1_Temporal_error_evolution
