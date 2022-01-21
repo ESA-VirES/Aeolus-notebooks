@@ -19,6 +19,18 @@
             "group": "Introduction: VirES for Aeolus",
             "rank": 1
         },{
+            "path": "notebooks/02b__viresclient-features.ipynb",
+            "name": "viresclient Features",
+            "class": "introductionitem",
+            "group": "Introduction: VirES for Aeolus",
+            "rank": 1
+        },{
+            "path": "notebooks/02c__viresclient-data-management.ipynb",
+            "name": "viresclient Data Handling",
+            "class": "introductionitem",
+            "group": "Introduction: VirES for Aeolus",
+            "rank": 1
+        },{
             "path": "notebooks/03a1_Demo-ALD_U_N_1B.ipynb",
             "name": "Aeolus Level 1B product",
             "class": "viresdemo",
@@ -75,6 +87,12 @@
         },{
             "path": "notebooks/05b1_Vertical_resampling_and_interpolation.ipynb",
             "name": "L2B vertical resampling/interpolation",
+            "class": "viresdemo",
+            "group": "Further Analysis Demos",
+            "rank": 1
+        },{
+            "path": "notebooks/05c1_Temporal_error_evolution.ipynb",
+            "name": "Temporal error evolution",
             "class": "viresdemo",
             "group": "Further Analysis Demos",
             "rank": 1

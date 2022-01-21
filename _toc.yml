@@ -13,6 +13,8 @@ parts:
 - caption: Intro - VirES for Aeolus
   chapters:
   - file: notebooks/02a__Intro-Aeolus-viresclient
+  - file: notebooks/02b__viresclient-features
+  - file: notebooks/02c__viresclient-data-management
 - caption: Aeolus Product Demos
   chapters:
   - file: notebooks/03a1_Demo-ALD_U_N_1B
@@ -29,3 +31,4 @@ parts:
   chapters:
   - file: notebooks/05a1_Orbit_prediction
   - file: notebooks/05b1_Vertical_resampling_and_interpolation
+  - file: notebooks/05c1_Temporal_error_evolution
