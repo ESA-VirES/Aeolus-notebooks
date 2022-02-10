@@ -55,6 +55,12 @@
             "group": "Aeolus Product Demos",
             "rank": 1
         },{
+            "path": "notebooks/03e1_Demo-CODA.ipynb",
+            "name": "CODA use example",
+            "class": "viresdemo",
+            "group": "Aeolus Product Demos",
+            "rank": 1
+        },{
             "path": "notebooks/04d1_Demo_AUX_MET.ipynb",
             "name": "Auxiliary Meteorological Data",
             "class": "viresdemo",
