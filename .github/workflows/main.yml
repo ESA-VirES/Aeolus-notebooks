@@ -22,6 +22,7 @@ jobs:
             -e VIRES_TOKEN_STAGING=${{ secrets.VIRES_TOKEN_STAGING }} \
             -e DATAU=${{ secrets.DATAU }} \
             -e DATAP=${{ secrets.DATAP }} \
+            -e CODA_DEFINITION=/usr/share/coda/definitions/ \
             registry.gitlab.eox.at/esa/vires_vre_ops/vre-aeolus-notebook:0.1.2j \
             bash -c \
               '
