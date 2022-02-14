@@ -21,6 +21,7 @@ parts:
   - file: notebooks/03b1_Demo-ALD_U_N_2A
   - file: notebooks/03c1_Demo-ALD_U_N_2B
   - file: notebooks/03d1_Demo-ALD_U_N_2C
+  - file: notebooks/03e1_Demo-CODA
 - caption: Auxiliary Product Demos
   chapters:
   - file: notebooks/04d1_Demo_AUX_MET
