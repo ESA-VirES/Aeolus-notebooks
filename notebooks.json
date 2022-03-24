@@ -102,6 +102,18 @@
             "class": "viresdemo",
             "group": "Further Analysis Demos",
             "rank": 1
+        },{
+            "path": "notebooks/05d1_Aerosol_profile_comparison.ipynb",
+            "name": "Aerosol profile validation",
+            "class": "viresdemo",
+            "group": "Further Analysis Demos",
+            "rank": 1
+        },{
+            "path": "notebooks/05e1_Wind_profile_comparison.ipynb",
+            "name": "Wind profile validation",
+            "class": "viresdemo",
+            "group": "Further Analysis Demos",
+            "rank": 1
         }
     ]
 }
