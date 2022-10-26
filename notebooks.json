@@ -61,6 +61,12 @@
             "group": "Aeolus Product Demos",
             "rank": 1
         },{
+            "path": "notebooks/03f1_Demo-ALD_U_N_1A.ipynb",
+            "name": "ALD_U_N_1A",
+            "class": "viresdemo",
+            "group": "Aeolus Product Demos",
+            "rank": 1
+        },{
             "path": "notebooks/04d1_Demo_AUX_MET.ipynb",
             "name": "Auxiliary Meteorological Data",
             "class": "viresdemo",
