@@ -33,10 +33,7 @@ jobs:
               viresclient set_token https://staging.aeolus.services/ows $VIRES_TOKEN_STAGING && \
               viresclient set_default_server https://aeolus.services/ows && \
               pip install jupyter-book==0.12.2 nbmake==1.2 pytest-xdist==2.5.0 && \
-              pytest --numprocesses 2 --nbmake --overwrite notebooks \
-                --ignore=notebooks/05a1_Orbit_prediction.ipynb \
-                --ignore=notebooks/05d1_Aerosol_profile_comparison.ipynb \
-                --ignore=notebooks/05e1_Wind_profile_comparison.ipynb && \
+              pytest --numprocesses 2 --nbmake --overwrite notebooks && \
               jupyter-book build --config _config-testing.yml .
               '
       - name: Deploy preview with netlify
